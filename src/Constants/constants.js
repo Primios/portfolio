@@ -81,10 +81,10 @@ const icons = {
 
 const introduction = {
   text: [
-    "Hello there, I'm so happy you are here! (:",
+    "Hello there, I'm so happy you are here! ",
 
-		"My name is Valentin, I'm 20 and a junior computer science student based in France. I have a strong passion for the technologies related to the data base construction and UX.",
-    "Outside of my regular activities, I'm into gaming whenever I have some free time. I'm also a good cooker and enjoy running.",
+		"My name is Valentin, I'm 20 and a junior computer science student based in France. I have a strong passion for the technologies related to WEB Developpement.",
+    "Outside of my regular activities, I'm into sport and gaming whenever i've time for it.",
 
     "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
   ],
@@ -111,25 +111,25 @@ export const navLinks = [
 
 const projects = [
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
+    name: "Connect 4",
+    description: 'Build in react this game is a classic. The goal is to connect four of your discs in a row, column, or diagonal. The first player to connect four in a row wins! And if you want to spice up the game, you can play with bonuses. The goal of this project was to practice testing with Jest and React Testing Library.',
     image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    source_code_link: 'https://github.com/Primios/puissance4',
+    demo_link: 'https://primios.github.io/puissance4/',
   },
   {
-    name: 'Pawsitive',
-    description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
+    name: 'EscApe',
+    description: 'EscApe is a game developped with Unity for the Devart Hackaton of 2024. It is a platformer game where you play as a little monkey on his way to school.',
     image: pawsitivePrototype,
     source_code_link: 'https://github.com/bl33h/pawsitive',
     demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
   },
   {
     name: 'Basic Calculator',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
+    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly.',
     image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
+    source_code_link: 'https://github.com/Primios/calculator-app/tree/main',
+    demo_link: 'https://primios.github.io/calculator-app/',
   },
 ];
 
