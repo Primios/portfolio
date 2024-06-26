@@ -1,11 +1,6 @@
-# whosbl33h
+# Valentin
 Welcome to my portfolio repository! This project showcases my skills using React, ESLint, Tailwind, and Vite. It includes a brief introduction about me, my projects, the technologies I've worked with, and my experience. You'll also find a contact form at the bottom and my social media links below it. Feel free to explore and connect with me!
 
-<p align="center">
-  <br>
-  <img src="https://reactjsexample.com/content/images/2023/06/Code-2023-05-36-15.jpg" alt="wb" width="400">
-  <br>
-</p>
 <p align="center" >
   <a href="#features">Features</a> •
   <a href="#Files">Files</a> •
@@ -13,7 +8,7 @@ Welcome to my portfolio repository! This project showcases my skills using React
   <a href="#packages">Packages</a>   
 </p>
 <p align="center" >
-<a href="https://whosbl33h.netlify.app/">Try it out here</a> 
+<a href="https://primios.github.io/portfolio/">Try it out here</a> 
 </p>
 
 ## Features

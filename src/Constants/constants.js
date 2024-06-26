@@ -114,15 +114,15 @@ const projects = [
     name: "Connect 4",
     description: 'Build in react this game is a classic. The goal is to connect four of your discs in a row, column, or diagonal. The first player to connect four in a row wins! And if you want to spice up the game, you can play with bonuses. The goal of this project was to practice testing with Jest and React Testing Library.',
     image: memoryGame,
-    source_code_link: 'https://github.com/Primios/puissance4',
+    source_code_link: 'https://etulab.univ-amu.fr/h21213497/puissance4',
     demo_link: 'https://primios.github.io/puissance4/',
   },
   {
-    name: 'EscApe',
-    description: 'EscApe is a game developped with Unity for the Devart Hackaton of 2024. It is a platformer game where you play as a little monkey on his way to school.',
+    name: 'Mazius III',
+    description: 'Mazius III is a maze game where the player incarnates a little monkey looking for his banana. The maze are generated randomly and the player can choose the diffilculty of the maze. Developped in Java, this project associates graph theory and oriented object programming. Associated with a database, the player can save his score and the time he took to finish the maze and compare it with other players.',
     image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
+    source_code_link: 'https://github.com/Primios/maziusIII',
+    demo_link: 'https://www.youtube.com/watch?v=HDP2yFcTquQ&feature=youtu.be',
   },
   {
     name: 'Basic Calculator',
@@ -175,17 +175,17 @@ const skills = [
   },
   {
     id: 'aws',
-    title: 'Amazon Web Services',
+    title: 'C++',
     icon: awsIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+      'I have a strong command of C++, leveraging its capabilities to develop efficient algorithms and data structures. I have also used C++ to build applications for competitive programming.',
   },
   {
     id: 'figma',
-    title: 'Figma',
+    title: 'C#',
     icon: figmaIcon,
     description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+    'During my internship, i used to work with C# to develop a software for the company. I have a good knowledge of the language and i am able to develop a software from scratch.',
   },
   {
     id: 'git',
@@ -210,17 +210,17 @@ const skills = [
   },
   {
     id: 'vite',
-    title: 'Vite',
+    title: 'MongoDB',
     icon: viteIcon,
     description:
-      'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
+      'I experienced MongoDB, to store and manage datasets in order to build scalable and efficient web applications based API First approach.',
   },
   {
     id: 'py',
     title: 'Python',
     icon: pyIcon,
     description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
+      'I used Python a lot during my studies for data analysis and machine learning. I have a good knowledge of the language and i am able to develop a software from scratch.',
   },
   {
     id: 'node',
@@ -231,24 +231,24 @@ const skills = [
   },
   {
     id: 'neo',
-    title: 'Neo4j',
+    title: 'PHP',
     icon: neoIcon,
     description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
+      'I have experience with PHP, where I used it to develop dynamic web pages and interactive web applications. I have a strong command of PHP and have used it to build websites that interact with databases.',
   },
   {
     id: 'raspi',
-    title: 'Raspberry Pi',
+    title: 'ASM x86',
     icon: raspIcon,
     description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
+      'ASM x86 is a low-level programming i\'ve learned during my studies. I\'ve built several program with it.',
   },
   {
     id: 'eslint',
-    title: 'Eslint',
+    title: 'Robot Framework',
     icon: eslintIcon,
     description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+      'During my first internship, i was in charge of the testing softwares and different applications. I used Robot Framework to automate the tests.',
   },
 ];
 
