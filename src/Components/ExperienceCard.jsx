@@ -9,7 +9,7 @@
 
 import { motion } from "framer-motion";
 import { styles } from '../styles'
-import { projects } from "../Constants/constants";
+import { experiences } from "../Constants/constants";
 import { Tilt } from "react-tilt";
 import { githubIcon } from "../assets";
 
@@ -147,17 +147,6 @@ const SectionWrapper = (Component, idName) =>
         <div
           className="absolute inset-0 flex justify-end m-3 card-img_hover"
         >
-          <div
-          onClick={() => window.open
-          (source_code_link, "_blank")}
-          className="black-gradient w-8 h-8 rounded-full flex justify-center items-center cursor-pointer"
-          >
-           <img 
-          src={githubIcon}
-          alt="github"
-          className="w-15 h-15 object-contain"
-          />
-          </div>
         </div>
         </div>
     
@@ -173,13 +162,6 @@ const SectionWrapper = (Component, idName) =>
         <div 
         className="mt-3 flex justify-center items-center"
         >
-        <a 
-          className="shadow-md shadow-primary m-3 p-2 bg-tertiary w-[60%] rounded-lg flex justify-center"
-          href={demo_link}
-          target='_blank'
-        >
-          See the Demo
-        </a>
         </div>
       </Tilt>
       </motion.div>
@@ -198,7 +180,7 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.map((project, index) => (
+        {experiences.map((project, index) => (
           <ProjectCard 
             key={`project-${index}`}
             index={index}

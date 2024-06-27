@@ -30,6 +30,7 @@ import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
 
+
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
 import calculator from './projects/calculator.jpg';
@@ -37,6 +38,11 @@ import memoryGame from './projects/memory.jpg';
 
 // Avatar
 import avatar from './avatar/avatar.png';
+
+
+// Experiences
+import nge from './experiences/nge.png';
+import enedis from './experiences/enedis.jpg';
 
 export {
   menu,
@@ -62,4 +68,6 @@ export {
   memoryGame,
   avatar,
   bl33hIcon,
+  nge,
+  enedis
 };

@@ -43,6 +43,8 @@ import {
   calculator,
   memoryGame,
   avatar,
+  nge,
+  enedis
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -65,6 +67,8 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  nge,
+  enedis
 };
 
 const icons = {
@@ -116,6 +120,7 @@ const projects = [
     image: memoryGame,
     source_code_link: 'https://etulab.univ-amu.fr/h21213497/puissance4',
     demo_link: 'https://primios.github.io/puissance4/',
+    date: '2023',
   },
   {
     name: 'Mazius III',
@@ -123,6 +128,7 @@ const projects = [
     image: pawsitivePrototype,
     source_code_link: 'https://github.com/Primios/maziusIII',
     demo_link: 'https://www.youtube.com/watch?v=HDP2yFcTquQ&feature=youtu.be',
+    date: '2022',
   },
   {
     name: 'Basic Calculator',
@@ -130,6 +136,7 @@ const projects = [
     image: calculator,
     source_code_link: 'https://github.com/Primios/calculator-app/tree/main',
     demo_link: 'https://primios.github.io/calculator-app/',
+    date: '2021',
   },
 ];
 
@@ -185,7 +192,7 @@ const skills = [
     title: 'C#',
     icon: figmaIcon,
     description:
-    'During my internship, i used to work with C# to develop a software for the company. I have a good knowledge of the language and i am able to develop a software from scratch.',
+    'During my apprenticeship, i used to work with C# to develop softwares for the company. I have a good knowledge of the language and i am able to develop a software from scratch.',
   },
   {
     id: 'git',
@@ -257,11 +264,27 @@ const markerSvg = `<svg viewBox="-4 0 36 36">
     <circle fill="black" cx="14" cy="14" r="7"></circle>
   </svg>`;
 
+  const experiences = [
+    {
+      name: "Enedis",
+      description: 'Internship at Enedis, the French electricity distribution network operator. I was a member of the testing team, responsible for automating tests for software and applications using Robot Framework. My main tasks included test automation and software/application testing.',
+      image: enedis,
+      date: 'April 2023 - July 2023',
+    },
+    {
+      name: 'NGE',
+      description: 'Apprenticeship at NGE, a French construction company. My primary responsibility was developing software solutions for the company using C#.',
+      image: nge,
+      date: 'October 2023 - July 2024',
+    }
+  ];
+  
 export {
   media,
   introduction,
   projects,
   memoji,
+  experiences,
   skills,
   markerSvg,
   icons,
