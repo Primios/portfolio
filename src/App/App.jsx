@@ -14,6 +14,7 @@ import About from "../Pages/About";
 import Skills from "../Pages/Skills";
 import Contact from "../Pages/Contact";
 import Experiences from "../Pages/Experiences";
+import Chatbox from "../Pages/Chatbox";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Projects />
       <Skills />
       <Contact />
+      <Chatbox />
     </>
   );
 }
